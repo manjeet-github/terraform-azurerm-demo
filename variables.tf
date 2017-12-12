@@ -3,11 +3,11 @@ variable "location" {
 }
 
 variable "resource_group_name" {
-  default = "tfaz-rg"
+  default = "tfaz-rg-dev"
 }
 
 variable "sg_name" {
-  default = "tfaz-nsg"
+  default = "tfaz-nsg-dev"
 }
 
 # This is the default variable set in the network module. I left this commented
